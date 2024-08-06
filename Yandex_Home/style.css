@@ -1,0 +1,192 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* topic icons*/
+.icons_bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 0rem;
+    box-sizing: border-box;
+}
+
+.icons_bar div{
+    margin: 1rem;
+}
+
+.icons_bar div:hover{
+    cursor: pointer;
+}
+
+.icons_bar div li:hover{
+    border-radius: 50%;
+    background-color: lightgray;
+}
+.icons_bar div p:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+#round{
+    border: 1px 1px 1px 1px solid gray;
+    border-radius: 50%;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+}
+div img{
+    border-radius: 50%;
+    height: 2.1rem;
+}
+div p{
+    font-size: small;
+}
+
+
+
+
+/* Search space */
+.search{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:45rem;
+}
+
+.outline_search{
+    background-color: #fece02;
+    display: flex;
+    flex-direction: row;
+    width: 45rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px 2px 2px 11px;
+    /* margin: 2px; */
+    margin:0.1rem 0.1rem;
+}
+
+.inside_search{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    width: 40rem;
+    background-color: white;
+    border-radius: 11px 2px 2px 11px;
+    padding: 0.4rem;
+    padding-right: 1rem;
+    margin:0.1rem 0.1rem;
+}
+
+input{
+    font-size: medium;
+    width: 40rem;
+    height: 1.5rem;
+    padding:3px 0px;
+    padding-left:0.5rem;
+    padding-right: 0.2rem;
+    margin-left:0.1rem;
+    margin-right: 0.2rem;
+    border: none;
+    outline: none;    
+}
+#logo{
+    height: 4rem;
+    padding-bottom: 0.5rem;
+}
+
+.search button{
+    background-color:#fece02;
+    border: none;
+    font-size: large;
+    padding: 0.3rem;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+.search button:hover{
+    cursor: pointer;
+}
+
+.inside_search img{
+    cursor: pointer;
+}
+
+
+
+
+/* lower part of yandex */
+.lower ul{
+    margin-top: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower ul img{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.lower ul li{
+    padding: 0.1rem;
+    margin-left: 0.1rem;
+}
+
+.lower ul div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer{
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li{
+    font-size: smaller;
+    margin-left: 0.2rem;
+    padding-left: 0.1rem;
+}
+
+footer p{
+    font-weight:200;
+    color: rgb(184, 181, 181);
+}
+
+footer p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
